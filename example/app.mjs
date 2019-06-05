@@ -1,6 +1,6 @@
 export const state = {
   title: '@magic-modules/accordion',
-  description: '.',
+  description: 'shows / hides items in a vertical accordion',
   logotext: 'Accordion',
   menu: [
     { to: '/#installation', text: 'installation' },

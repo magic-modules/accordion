@@ -3,7 +3,7 @@ export const View = state => [
   p([
     'this is the ',
     Link({ to: 'https://github.com/magic-modules' }, '@magic-modules'),
-    ' Pre component. ',
+    ' Accordion component. ',
     state.description,
   ]),
 
@@ -13,7 +13,7 @@ export const View = state => [
   Pre('npm install magic-modules/accordion'),
 
   h2({ id: 'usage' }, 'usage:'),
-  p('in a page/component.'),
+  p('in a page or Component.'),
   Pre(`
 export const View = state => Accordion({
   key: 'about',
