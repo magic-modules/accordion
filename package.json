@@ -1,0 +1,53 @@
+{
+  "name": "@magic-modules/accordion",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic-modules.github.io/accordion",
+  "license": "AGPL-3.0",
+  "description": "@magic accordion module.",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=12.4.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/accordion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/accordion/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/git-badges": "github:magic-modules/git-badges",
+    "@magic-modules/light-switch": "github:magic-modules/light-switch",
+    "@magic-modules/pre": "github:magic-modules/pre",
+    "@magic-themes/docs": "github:magic-themes/docs",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.1.10"
+  },
+  "keywords": [
+    "syntax",
+    "magic",
+    "accordion",
+    "component"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
