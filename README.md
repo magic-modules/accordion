@@ -13,8 +13,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/accordion.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/accordion
-[travis-image]: https://api.travis-ci.org/magic-modules/accordion.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-modules/accordion
+[travis-image]: https://img.shields.io/travis/com/magic-modules/accordion/master
+[travis-url]: https://travis-ci.com/magic-modules/accordion
 [appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/accordion/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magicmodules/accordion/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/accordion/badge.svg
