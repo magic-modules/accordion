@@ -50,3 +50,12 @@ export const View = () => Accordion({
   },
 })
 ```
+
+#### changelog
+
+##### 0.0.1
+first commit
+
+##### 0.0.2
+use @magic npm packages instead of github for installs
+
