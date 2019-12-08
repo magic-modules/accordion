@@ -40,10 +40,10 @@
     "@magic/test": "0.1.23"
   },
   "keywords": [
-    "syntax",
     "magic",
+    "magic-module",
     "accordion",
-    "component"
+    "hyperapp"
   ],
   "contributors": [
     {
