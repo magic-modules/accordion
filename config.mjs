@@ -4,4 +4,6 @@ export default {
   URL: 'magic-modules.github.io/accordion',
   PUBLIC: 'docs',
   THEME: 'docs',
+
+  HOIST: 'Gdpr',
 }
