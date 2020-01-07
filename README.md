@@ -59,3 +59,8 @@ first commit
 ##### 0.0.2
 use @magic npm packages instead of github for installs
 
+##### 0.0.3 - unreleased
+require node 13.5.0
+
+##### 0.0.4 - unreleased
+...
