@@ -59,8 +59,9 @@ first commit
 ##### 0.0.2
 use @magic npm packages instead of github for installs
 
-##### 0.0.3 - unreleased
-require node 13.5.0
+##### 0.0.3
+* require node 13.5.0
+* @magic > 0.0.53 has new way of passing state
 
 ##### 0.0.4 - unreleased
 ...
