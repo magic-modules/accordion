@@ -1,33 +1,40 @@
 export const View = (props = {}) => {
-  const { items, key, title, class: cl, state } = props
+  const { key, title, class: cl, items, state } = props
+
+  const { accordions = {} } = state
 
   CHECK_PROPS(props, propTypes, 'Accordion')
+
   if (!key || !items || !items.length) {
     return
   }
 
+  const classString = cl ? ` ${cl}` : ''
+
   const wrapperProps = {
-    class: `Accordion ${key}${cl ? ` ${cl}` : ''}`,
+    class: `Accordion ${key}${classString}`,
   }
 
   return div(wrapperProps, [
     title && h3(title),
-    items.map(({ title, text }, id) => {
-      const open = state.accordions[key]
+    ul(
+      items.map(({ title, text }, id) => {
+        const open = accordions[key]
 
-      const itemProps = {
-        class: `AccordionItem${open === id ? ' open' : ''}`,
-      }
+        const itemProps = {
+          class: `AccordionItem${open === id ? ' open' : ''}`,
+        }
 
-      const headerProps = {
-        onclick: [actions.accordion.toggle, { key, id }],
-      }
+        const headerProps = {
+          onclick: [actions.accordion.toggle, { key, id }],
+        }
 
-      return div(itemProps, [
-        title && h4(headerProps, title),
-        text && div({ class: 'content' }, text),
-      ])
-    }),
+        return div(itemProps, [
+          title && h4(headerProps, title),
+          text && div({ class: 'content' }, text),
+        ])
+      }),
+    ),
   ])
 }
 
