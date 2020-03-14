@@ -4,7 +4,7 @@ this is the [@magic-modules](https://github.com/magic-modules) Accordion compone
 
 ${state.description}
 
-<GitBadges>magic-modules/accordion</GitBadges>
+<GitBadges>@magic-modules/accordion</GitBadges>
 
 <h2 id="installation">installation</h2>
 
