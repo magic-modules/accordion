@@ -63,5 +63,8 @@ use @magic npm packages instead of github for installs
 * require node 13.5.0
 * @magic > 0.0.53 has new way of passing state
 
-##### 0.0.4 - unreleased
+##### 0.0.4
+bump required node version to 14.2.0
+
+##### 0.0.5 - unreleased
 ...
