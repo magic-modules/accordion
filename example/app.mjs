@@ -3,7 +3,6 @@ export const state = {
   description: 'shows / hides items in a vertical accordion',
 
   logotext: 'Accordion',
-
   menu: [
     { to: '/#installation', text: 'installation' },
     { to: '/#usage', text: 'usage' },
