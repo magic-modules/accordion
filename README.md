@@ -66,5 +66,9 @@ use @magic npm packages instead of github for installs
 ##### 0.0.4
 bump required node version to 14.2.0
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+use li for accordion items
+update dev dependencies
+
+##### 0.0.6 - unreleased
 ...
