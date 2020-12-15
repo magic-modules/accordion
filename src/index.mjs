@@ -29,7 +29,7 @@ export const View = (props = {}) => {
           onclick: [actions.accordion.toggle, { key, id }],
         }
 
-        return div(itemProps, [
+        return li(itemProps, [
           title && h4(headerProps, title),
           text && div({ class: 'content' }, text),
         ])
