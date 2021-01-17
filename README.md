@@ -70,5 +70,8 @@ bump required node version to 14.2.0
 use li for accordion items
 update dev dependencies
 
-##### 0.0.6 - unreleased
+##### 0.0.6 
+bump required node version to 14.15.4
+
+##### 0.0.7 - unreleased
 ...
