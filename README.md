@@ -1,8 +1,8 @@
 ## @magic-modules/accordion
 
-[@magic](https://magic.github.io/core)-module that vertically shows/hides tabs in an accordion
+[@magic](https://magic.github.io/core/)-module that vertically shows/hides tabs in an accordion
 
-[html-docs](https://magic-modules.github.io/accordion)
+[html-docs](https://magic-modules.github.io/accordion/)
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
